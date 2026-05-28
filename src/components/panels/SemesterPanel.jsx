@@ -21,15 +21,15 @@ export default function SemesterPanel() {
   return (
     <div className="space-y-5">
       <div>
-        <p className="text-xs font-mono tracking-[0.3em] text-[#ef5350] uppercase mb-1 animate-pulse">
-          ⚠ Classified Archive
+        <p className="text-xs font-mono tracking-[0.3em] text-[#ef5350]/70 uppercase mb-1">
+          Semester Project
         </p>
         <h2
           ref={glitchRef}
           className="text-2xl font-light tracking-wide"
           style={{ color: '#ef9a9a', textShadow: '0 0 20px #ef535060' }}
         >
-          The Punishing Home
+          The Future of Productivity
         </h2>
       </div>
 
@@ -47,8 +47,8 @@ export default function SemesterPanel() {
           <p className="text-slate-300 text-sm font-light">AI Engineer</p>
         </div>
         <p className="text-slate-400 text-sm leading-relaxed font-light">
-          Built a faze-detection system using <span className="text-[#ef9a9a] font-mono">MediaPipe Face Landmarker</span> to
-          detect when the user looks away from the screen — triggering in-game consequences. My first time writing Python,
+          Built a face-detection system using <span className="text-[#ef9a9a] font-mono">MediaPipe Face Landmarker</span> to
+          detect when the user looks away from the screen, this can trigger consequences like: getting punished by a loud noise. This was my first time writing Python,
           and it came together well.
         </p>
         <div>

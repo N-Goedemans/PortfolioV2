@@ -1,5 +1,5 @@
 const contacts = [
-  { label: 'Email', value: 'chatgptniekbrent@gmail.com', href: 'mailto:niekgoedemans93@gmail.com', icon: '✉' },
+  { label: 'Email', value: 'niekgoedemans93@gmail.com', href: 'mailto:niekgoedemans93@gmail.com', icon: '✉' },
   { label: 'GitHub', value: 'N-Goedemans', href: 'https://github.com/N-Goedemans', icon: '⌥' },
   { label: 'LinkedIn', value: 'Niek Goedemans', href: 'https://linkedin.com/in/niek-goedemans', icon: '◈' },
 ]
