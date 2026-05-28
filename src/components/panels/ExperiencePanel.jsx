@@ -11,12 +11,22 @@ const timeline = [
   },
   {
     company: 'Qore Digital',
-    role: 'Intern -> Employee',
+    role: 'Intern → Employee',
     color: '#b39ddb',
     items: [
       'Vue.js development',
       'Tailwind CSS',
       'WordPress integrations',
+    ],
+  },
+  {
+    company: 'Bit Academy',
+    role: 'MBO Full Stack Development',
+    color: '#81c784',
+    items: [
+      'Full stack web development curriculum',
+      'Strong focus on front-end',
+      'HTML, CSS, Tailwind, JavaScript, TypeScript, Next.js, Vue.js, PHP',
     ],
   },
 ]

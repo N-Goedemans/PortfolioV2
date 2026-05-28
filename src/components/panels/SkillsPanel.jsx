@@ -7,6 +7,7 @@ const skills = [
   { name: 'Tailwind CSS', color: '#38bdf8' },
   { name: 'Java', color: '#f89820' },
   { name: 'Figma', color: '#a259ff' },
+  { name: 'PHP', color: '#8892bf' },
 ]
 
 export default function SkillsPanel() {
