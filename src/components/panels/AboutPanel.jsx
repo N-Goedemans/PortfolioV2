@@ -16,8 +16,8 @@ export default function AboutPanel() {
       <div className="space-y-2">
         {[
           { label: 'Focus', value: 'Frontend Development' },
-          { label: 'Institute', value: 'HvA — HBO-ICT' },
-          { label: 'Interests', value: 'Creative Tech · Gaming · Fitness' },
+          { label: 'Education', value: 'HvA HBO-ICT' },
+          { label: 'Interests', value: 'Creative Tech · Gaming · Fitness · Guitar' },
           { label: 'Location', value: 'Middenbeemster, NL' },
         ].map(({ label, value }) => (
           <div key={label} className="flex gap-3 text-sm">

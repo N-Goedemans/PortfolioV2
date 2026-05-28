@@ -6,7 +6,7 @@ export const SECTIONS = {
   EXPERIENCE: 'experience',
   SKILLS: 'skills',
   PROJECTS: 'projects',
-  SEMESTER: 'semester',
+  DARKTECH: 'dark tech',
   CONTACT: 'contact',
 }
 
@@ -37,7 +37,7 @@ export const SECTION_CONFIG = {
     hotspot: { phi: Math.PI * 0.6, theta: Math.PI * 1.7, color: '#ffa726' },    // amber
   },
   [SECTIONS.SEMESTER]: {
-    label: 'Semester Project',
+    label: 'Dark Tech Project',
     camera: { position: [-1.5, -2, 5], target: [0, -0.5, 0] },
     hotspot: { phi: Math.PI * 0.85, theta: Math.PI * 0.8, color: '#ef5350' },   // red
   },

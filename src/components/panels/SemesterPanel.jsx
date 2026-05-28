@@ -41,22 +41,26 @@ export default function SemesterPanel() {
         and unconventional narrative.
       </p>
 
-      <div className="p-3 rounded border border-[#ef5350]/25 bg-[#ef5350]/5 space-y-1.5">
-        {[
-          'Dark tech aesthetic',
-          'Experimental narrative design',
-          'Psychological tension mechanics',
-          'Immersive atmosphere engineering',
-        ].map((item) => (
-          <div key={item} className="flex gap-2 text-xs text-slate-400 font-mono">
-            <span className="text-[#ef5350]">█</span>
-            {item}
+      <div className="space-y-3">
+        <div>
+          <p className="text-xs font-mono tracking-[0.3em] text-[#ef5350]/70 uppercase mb-1">My Role</p>
+          <p className="text-slate-300 text-sm font-light">AI Engineer</p>
+        </div>
+        <p className="text-slate-400 text-sm leading-relaxed font-light">
+          Built a faze-detection system using <span className="text-[#ef9a9a] font-mono">MediaPipe Face Landmarker</span> to
+          detect when the user looks away from the screen — triggering in-game consequences. My first time writing Python,
+          and it came together well.
+        </p>
+        <div>
+          <p className="text-xs font-mono tracking-[0.3em] text-[#ef5350]/70 uppercase mb-2">Skills</p>
+          <div className="flex flex-wrap gap-1.5">
+            {['Python', 'MediaPipe', 'Computer Vision', 'Real-time processing'].map((skill) => (
+              <span key={skill} className="text-[10px] font-mono px-2 py-0.5 rounded bg-[#ef5350]/10 text-[#ef9a9a]/80 border border-[#ef5350]/20">
+                {skill}
+              </span>
+            ))}
           </div>
-        ))}
-      </div>
-
-      <div className="text-[10px] font-mono text-[#ef5350]/40 animate-pulse">
-        STATUS: IN DEVELOPMENT ■■■□□□□□□□ 30%
+        </div>
       </div>
     </div>
   )

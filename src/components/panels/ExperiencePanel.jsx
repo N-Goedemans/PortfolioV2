@@ -4,9 +4,9 @@ const timeline = [
     role: 'Intern → Employee',
     color: '#4fc3f7',
     items: [
+      'Assisted rewrite of project into React',
       'Cyber Security & Pen-testing',
-      'WCAG Accessibility Testing',
-      'Assisted rewrite of project into new language',
+      'WCAG Accessibility Testing'
     ],
   },
   {
