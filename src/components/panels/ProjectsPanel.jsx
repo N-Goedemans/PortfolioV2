@@ -5,6 +5,7 @@ const projects = [
     tech: ['React', 'Three.js', 'GSAP', 'Tailwind'],
     github: 'https://github.com/N-Goedemans',
     live: null,
+    image: '/images/orbital-archive.png',
   },
   {
     title: 'Weather web app',
@@ -12,6 +13,7 @@ const projects = [
     tech: ['Next.js', 'Tailwind CSS', 'Typescript'],
     github: 'https://github.com/N-Goedemans/weather-app',
     live: 'https://weather-app-n-goedemans.vercel.app/',
+    image: '/images/weather-app.png',
   },
 ]
 
@@ -31,6 +33,15 @@ export default function ProjectsPanel() {
             key={project.title}
             className="p-4 rounded-lg border border-[#4dd0e1]/15 bg-[#4dd0e1]/5 hover:border-[#4dd0e1]/30 transition-colors duration-300"
           >
+            {project.image && (
+              <div className="mb-3 rounded overflow-hidden border border-[#4dd0e1]/10">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-32 object-cover object-top"
+                />
+              </div>
+            )}
             <h3 className="text-slate-100 font-medium mb-1">{project.title}</h3>
             <p className="text-slate-400 text-xs leading-relaxed mb-3">{project.desc}</p>
             <div className="flex flex-wrap gap-1.5 mb-3">
